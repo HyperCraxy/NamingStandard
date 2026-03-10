@@ -1,21 +1,7 @@
 # Unified Naming Convention
 aka UNC, is an organization between executor developers to provide a unified scripting API for our scripters.
-
-## UNC Has Retired 👋
-
-Who would've thought a globally documented API would be **such a hit**? We sure did! UNC was a great concept and it's lifespan proved it, focusing on building an excellent API for scripters allowed for those scripters to create great scripts, making our software just that more usable.
-
-Two years ago, UNC helped to resolve the issue of poorly named functions. Today, it's founders at ([Script-Ware](https://script-ware.com/)) have stopped engineering script execution software for Roblox where these functions are used.
-
-You are welcome to keep using UNC as a benchmark for software, but it will eventually grow out of date with newer features. We're sorry! We hope one day we'll make it up to you.
-
 ---
-~~**Please go to our official website for better styled information: https://scriptunc.org/**~~
-
 This website has since been removed, you can find all of the same information below.
-
-## Why?
-Over the years scripting has gotten more and more complex to support multiple executors. This is because of the many unique naming conventions various executors use.
 
 Consider the following scenario. You want to know if a function belongs to the executor or not. In order for this code to be cross compatiable with all executors code like this is needed:
 ```lua
@@ -41,6 +27,3 @@ NOTICE: If you, as a product owner, do not have all of these functions but yet s
 ## Checking your environment
 
 You can run the UNC environment checking script to see how well your executor environment supports the UNC standard. Find the script [here.](UNCCheckEnv.lua) The script determines what is missing, and writes the results to file under workspace.
-
-## Contributing
-Go [here](CONTRIBUTING.md) for a guide on contributing.
